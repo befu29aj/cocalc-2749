@@ -1,0 +1,625 @@
+% hm-04-gadhab.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{graphicx}
+% \usepackage{wrapfig}
+% \usepackage{colortbl}
+\usepackage{alltt}
+% \definecolor{myblue}{rgb}{0.8,0.85,1}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+}
+% \usecolortheme[named=OliveGreen]{structure}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+\newif\ifBCITCourse
+\BCITCoursetrue
+\BCITCoursefalse
+\newif\ifWhichCourse
+\WhichCoursetrue
+% \WhichCoursefalse
+\ifBCITCourse
+\ifWhichCourse
+\newcommand{\CourseName}{Statistics for Food Technology}
+\newcommand{\CourseNumber}{MATH 1441}
+\newcommand{\CourseInst}{BCIT}
+\else
+\newcommand{\CourseName}{Calculus for Geomatics}
+\newcommand{\CourseNumber}{MATH 1511}
+\newcommand{\CourseInst}{BCIT}
+\fi
+\else
+\newcommand{\CourseName}{Philosophy and Literature}
+\newcommand{\CourseNumber}{PHIL 375}
+\newcommand{\CourseInst}{UBC}
+\fi
+
+\title{Gadamer and Habermas}
+\subtitle{{\CourseNumber}, {\CourseInst}}
+
+\author{\CourseName}
+
+\date{October 24, 2017}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Which concept does Gadamer seek to rehabilitate as not being contrary
+to reason and freedom?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] determinism
+\item[B\hspace{.2in}$\blacktriangleright$] tradition
+\item[C\hspace{.2in}$\blacktriangleright$] innate abilities
+\item[D\hspace{.2in}$\blacktriangleright$] genius
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will be graded.
+\begin{block}{iClicker Question}
+What is the role of time for understanding, according to Gadamer?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] it is a positive and productive condition that enables understanding
+\item[B\hspace{.2in}$\blacktriangleright$] it is fundamentally asymmetric, you can go forwards but not backwards
+\item[C\hspace{.2in}$\blacktriangleright$] it is a gulf to be bridged that separates us from historical events
+\item[D\hspace{.2in}$\blacktriangleright$] it is scientifically reducible to archeological artefacts
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will be graded.
+\begin{block}{iClicker Question}
+Which war is used as an example that the name we give it now could
+not have been used at its outbreak?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] The Thirty Years War
+\item[B\hspace{.2in}$\blacktriangleright$] The First World War
+\item[C\hspace{.2in}$\blacktriangleright$] The Great War
+\item[D\hspace{.2in}$\blacktriangleright$] The War of Roses
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will be graded.
+\begin{block}{iClicker Question}
+Habermas makes reference to which philosopher's linguistic analysis?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] Russell
+\item[B\hspace{.2in}$\blacktriangleright$] Putnam
+\item[C\hspace{.2in}$\blacktriangleright$] Hegel
+\item[D\hspace{.2in}$\blacktriangleright$] Wittgenstein
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gadamer's Question}
+Here is the question that Gadamer wants answered:
+\begin{quote}
+  How can hermeneutics, once freed from the ontological obstructions
+  of the scientific concept of objectivity, do justice to the
+  historicity of understanding? (268)
+\end{quote}
+Note the difference between \emph{explanation} (which seeks to give
+necessary and sufficient conditions for the reduction of a concept to
+more primitive concepts) and \emph{understanding} (whose structure is
+circular and non-reductive). For Heidegger, understanding
+$\leftrightarrow$ circularity $\leftrightarrow$ temporality are
+inseparable.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Being and Time}
+  \begin{block}{Martin Heidegger}
+    What is decisive is not to get out of the circle but to come into
+    it the right way {\ldots} in the circle is hidden a positive
+    possibility of the most primordial kind of knowing. To be sure, we
+    genuinely take hold of this possibility only when, in our
+    interpretation, we have understood that our first, last and
+    constant task is never to allow our fore-having, fore-sight and
+    fore-conception to be presented to us by fancies and popular
+    conceptions, but rather to make the scientific theme secure by
+    working out these fore-structures in terms of the things
+    themselves. (\emph{Being and Time} 32:195)
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Martin Heidegger}
+  ``Heidegger gave understanding an ontological orientation by
+  interpreting it as an existential and when he interpreted Dasein's
+  mode of being in terms of time'' (296). Time is not a gulf to be
+  bridged, but it supports the ground for events to unfold (297)
+  $\longrightarrow$ recognize temporal distance as a positive and
+  productive condition enabling understanding! (For example, it is
+  much more difficult to assess the historical significance of current
+  events than of historical events.)
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hermeneutic Circle}
+  Here are a few points about the hermeneutic circle, a concept that
+  (I think) originates with Friedrich Schleiermacher.
+  \begin{itemize}
+  \item at first, the hermeneutic circle describes interpretation as
+    moving back and forth from parts of a text to the whole of a text.
+    Neither can be understood without the other. This is not a
+    question-begging procedure, as it would be in science or logic
+    (the bus is late because it arrived three minutes after the
+    scheduled time)
+  \item but then, circles appear in hermeneutics in many other places:
+    for example, when you are trying to understand the historical
+    past, you must also try to understand the present, for which it is
+    essential to understand the historical past
+  \end{itemize}
+  \begin{quote}
+    the circle of understanding is not a ``methodological'' circle,
+    but describes an element of the ontological structure of
+    understanding (294)
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hermeneutic Circle}
+  \begin{itemize}
+  \item another hermeneutic circle, according to Gadamer, is the way
+    in which prejudices are essential for understanding and
+    understanding is essential for discriminating between productive prejudices
+    that enable understanding and prejudices that hinder it and lead
+    to misunderstandings (295)
+  \item ``Heidegger derives the circular structure of understanding
+    from the temporality of Dasein'' (268) Heidegger writes, ``in the
+    circle is hidden a positive possibility'' (269)
+  \item the reason why circularity is virtuous, not vicious, for
+    interpretation is because it is \emph{existential}, i.e.\ ``the
+    circle possesses an ontologically positive significance'' (269)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Prejudice}
+  It is important to understand that for Gadamer, understanding of the
+  text is already present as you read the text. You do not get to it
+  as an afterthought. 
+  \begin{quote}
+    Working out this fore-projection, which is constantly revised in
+    terms of what emerges as she penetrates into the meaning, is
+    understanding what is there. (269)
+  \end{quote}
+  Objectivity refers only to the process, not to the outcome (compare
+  this to Sartre's cowardice, which is the only objective moral
+  failure). Inappropriate fore-meanings do not survive this
+  process---as in Schechtman, when inappropriate narratives which
+  violate the reality constraint do not hold up under interrogation
+  (Gadamer on page 271: ``the hermeneutical task becomes of itself a
+  questioning of things'').
+\end{frame}
+
+\begin{frame}
+  \frametitle{Misunderstandings}
+  There is some Popperian asymmetry detectable in Gadamer's analysis
+  of misunderstanding. The reader must always be open to new meanings,
+  just as Popper's scientist must always be open to new creative
+  hypotheses. However,
+  \begin{quote}
+    {\ldots} meanings cannot be understood in an arbitrary way. Just
+    as we cannot continually misunderstand the use of a word without
+    its affecting the meaning of the whole, so we cannot stick blindly
+    to our own fore-meaning about the thing if we want to understand
+    the meaning of another. (271)
+  \end{quote}
+  Therefore, certain interpretive approaches and fore-meanings can be
+  falsified. The harmony of all the details with the whole is the
+  criterion of correct understanding (291).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hermeneutics of Trust}
+  For Gadamer, a hermeneutics of suspicion is always derivative of a
+  hermeneutics of trust (the contrast between the two is due to Paul
+  Ricoeur, who wrote about this after Gadamer published \emph{Truth
+    and Method}). Gadamer says, ``only when this assumption proves
+  mistaken [the assumption that the text has integrity]---i.e.\ the
+  text is not intelligible---do we begin to suspect the text'' (294).
+  Understanding is like speaking your native language: it is natural,
+  constitutive of being. Misunderstanding is derivative and
+  artificial, such as when someone speaks to you in a foreign language
+  that you do not understand.
+  \begin{quote}
+    It is only when the attempt to accespt what is said as true fails
+    that we try to ``understand'' the text, psychologically or
+    historically, as another's opinion (294)
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Lifeworld}
+  Openness always includes situating the other meaning in relation to
+  the whole of our own meanings or ourselves in relation to it (271).
+  For example, Martin Luther's list on the next slide cannot and must
+  not be interpreted without the lifeworld including our experience of
+  the holocaust.
+\end{frame}
+
+\begin{frame}
+  \frametitle{On the Jews and Their Lies}
+  \begin{enumerate}
+  \item to burn down Jewish synagogues and schools and warn people
+    against them;
+  \item to refuse to let Jews own houses among Christians;
+  \item for Jewish religious writings to be taken away;
+  \item for rabbis to be forbidden to preach;
+  \item to offer no protection to Jews on highways;
+  \item for usury to be prohibited and for all silver and gold to be
+    removed, put aside for safekeeping, and given back to Jews who
+    truly convert; and
+  \item to give young, strong Jews flail, axe, spade, and spindle, and let them earn their bread in the sweat of their brow.[9]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tradition}
+  Heidegger, according to Gadamer, secures the scientific theme by
+  framing it within the understanding of tradition (272). The
+  fundamental prejudice of the Enlightenment is the prejudice against
+  prejudice itself, which denies tradition its power (273). For the
+  enlightenment, negative prejudice is distinguished from founded
+  judgment by reference to justificatory method. The two sources of
+  prejudice:
+  \begin{itemize}
+  \item human authority
+  \item overhastiness
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Romanticism}
+  The romantic reversal of the Enlightenment's criteria of value
+  perpetuates the abstract contrast between myth and reason (275)
+  \begin{itemize}
+  \item the world of myth
+  \item unreflective life
+  \item not yet analyzed by consciousness
+  \item close to nature
+  \item Christian chivalry
+  \item simplicity of peasant life
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Romanticism}
+  The achievements of Romanticism (276):
+  \begin{itemize}
+  \item revival of the past
+  \item discovery of the voices of the peoples in their songs
+  \item collecting of fairy tales and legends
+  \item cultivation of ancient customs
+  \item discovery of worldviews implicit in languages
+  \item study of religion and wisdom in India
+  \item nineteenth-century historiography
+  \end{itemize}
+However, Romanticism sees itself as fulfillment of the Enlightenment,
+achieving the kind of objectivity in historiography that was achieved
+in the natural sciences.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Overcoming the Global Demand}
+  \begin{block}{Hans-Georg Gadamer}
+    The overcoming of all prejudices, this global demand of the
+    enlightenment, will prove to be itself a prejudice, the removal of
+    which opens the way to an appropriate understanding of our
+    finitude which dominates not only our humanity but also our
+    historical consciousness. (277)
+  \end{block}
+Gadamer says that our own prejudice is properly brought into play by
+being put at risk (299).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Reason}
+  Gadamer emphasizes that ``reason exists for us only in concrete,
+  historical terms'' (277, Habermas calls this idea
+  ``de-transcendentalized reason''). The fundamental epistemological
+  question is not, what can I know detached from all experience; but:
+  what is the ground of the legitimacy of prejudices? (278) Gadamer
+  defends the role of authority. Gadamer is especially vocal about
+  resisting the antagonism between reason and tradition/authority that
+  has been built up by both the enlightenment and romanticism.
+  \begin{quote}
+    {\ldots} there is no such unconditional antithesis between
+    tradition and reason {\ldots} the romantic faith in the ``growth
+    of tradition,'' before which all reason must remain silent, is
+    fundamentally like the enlightenment and just as prejudiced (282)
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Authority}
+  Authority is not based on abdication of reason but on an act of
+  acknowledgment and knowledge (281). Granting authority to a superior
+  is an act of freedom and reason. This applies to morality and
+  supplies us with a critique of both existentialism and reason-based
+  moral views (Kant, Mill):
+  \begin{quote}
+    The real force of morals, for example, is based on tradition. They
+    are freely taken over but by no means created by a free insight or
+    grounded on reasons. (282) Romanticism was wrong by opposing
+    tradition and freedom.
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Wirkungsgeschichtliches Bewusstsein}
+  Gadamer wants to abolish the abstract antithesis between tradition
+  and historical research, between history and the knowledge of it
+  (283). Wirkungsgeschichte. Difference between the history of
+  mathematics and the history of the human sciences. You don't need to
+  read Max Planck's papers to understand quantum mechanics, but you
+  would want to read ``Droysen and Mommsen'' (285). Historiography is
+  not only research, it itself established tradition. It is
+  distinguished from natural science by having as its object the
+  subject conducting the inquiry. ``The true historical object is not
+  an object at all, but the unity of the one and the other'' (299).
+  Understanding is, essentially, a historically effected event.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Open Grammars}
+  There is a school of thought that says that our thinking is
+  constrained by language depending on the particular language
+  (Sapir-Whorf hypothesis).
+  \begin{itemize}
+  \item colour terms
+  \item Pirah{\~a}: lack of number terms
+  \item ``empty'' barrels that contained explosive vapours
+  \item Chinese and counterfactuals
+  \item Swedish prepositions and Finnish cases
+  \end{itemize}
+  For nativist objections to linguistic determinism see Steven
+  Pinker's book \emph{The Language Instinct}, chapter ``Mentalese.''
+  \begin{quote}
+    First, let us do away with the folklore that parents teach their
+    children language. (The Language Instinct, 28)
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Open Grammars}
+  For J{\"u}rgen Habermas, linguistic determinism is undermined by
+  language itself. Language rules (which Habermas calls a grammar)
+  enable transcendance.
+  \begin{quote}
+    every ordinary-language grammar opens up the possibility of also
+    transcending the language that it establishes (143)
+  \end{quote}
+  \begin{quote}
+    we are never enclosed within a single grammar {\ldots} the first
+    grammar that one masters also enables one to step outside it and
+    interpret something foreign, to make something that is
+    incomprehensible intelligible (143)
+  \end{quote}
+  \begin{quote}
+    the language games of the young do not simply reproduce the
+    practice of the old (148; the impossibility of double-speak)
+  \end{quote}
+  Reason is always bound up with language and always beyond the
+  languages in which it is expressed (144).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Wittgenstein}
+  Wittgenstein's \alert{language games}. Wittgenstein is the
+  detranscendentalizer of language, as Habermas is the
+  detranscendentalizer of reason. Wittgenstein's language games resist
+  positivism's formalized languages (for example, Gottlob Frege's
+  \emph{Begriffsschrift}).
+
+\bigskip
+
+  For Wittgenstein, understanding is recapitulation of the training
+  through which native speakers are socialized into their form of
+  life. For Gadamer, this is not sufficient. Hermeneutics kicks in
+  when the language game becomes problematic. Interpreters are like
+  translators.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Wittgenstein}
+  \begin{tabular}{|l|l|l|}\hline
+    & Wittgenstein & Habermas \\ \hline
+    language & situated & situated \\ \hline
+    language & monadological & dialectical \\ \hline
+  \end{tabular}
+  \begin{block}{J{\"u}rgen Habermas}
+    The lifeworlds established by the grammar of language games are
+    not closed life forms, as Wittgenstein's monadological conception
+    suggests {\ldots} Wittgenstein failed to recognize that the same
+    rules also include the conditions of the possibility of
+    interpretation. (147)
+  \end{block}
+  Dialectic, rather than monadology, leads to the possibility of
+  revision and elastic renewal (148) (``language spheres are not
+  monadically sealed but porous,'' 149).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Fusing Horizons}
+  ``Hermeneutic understanding, which is only articulated in situations
+  of disturbed consensus, is as fundamental to the understanding of
+  language as is primary consensus'' (148).
+
+\bigskip
+
+Wittgenstein resisted positivism by introducing the practice of
+language games and Husserl's concept of lifeworld to linguistics. He
+did not go far enough by viewing language ahistorically and in terms
+of the reproduction of fixed patterns (149). The contrast with formal
+languages (communications, not derivations). The speech situation is
+not a model for a formalized language (150).
+
+\bigskip
+
+  Understanding does not rest on empathy (as it did for Dilthey), but
+  on ``the attainment of a higher universality'' (Gadamer, 151).
+  ``Understanding is always the fusion of horizons.'' 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hermeneutic Circle}
+  \begin{itemize}
+  \item circular relationship of pre-understanding and the explication
+    of what is understood---we can decipher the parts of a text only
+    if we anticipate an understanding (152)
+  \item the circle is neither subjective nor objective, but
+    characterized by the movement of interpreter and tradition
+  \item it is not an act of subjectivity because it proceeds from a
+    common bond with tradition; this bond, however, is constantly
+    being developed
+  \item we have always already understood the tradition (Socrates'
+    maieutics)
+  \item hermeneutic understanding is the interpretation of texts with
+    the knowledge of texts that have already been understood (153)
+  \item the possible objectivity of experience is endangered by the
+    illusion of objectivity
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Wirkungsgeschichtliches Bewusstsein}
+  \begin{block}{Hans-Georg Gadamer}
+    The actual meaning of the text, as it speaks to the interpreter,
+    does not depend on the contingencies of the author and those whom
+    he originally wrote for. At least it is not exhausted by them, for
+    it is always partly determined also by the historical situation
+    {\ldots} the meaning of a text goes beyond its author
+  \end{block}
+Arthur Danto, an American art critic, introduces the significance of
+narrative to Gadamer's idea of historical-effect consciousness.
+Narratives stand in contrast to what neo-positivists have called
+protocol sentences. The latter are
+\begin{itemize}
+\item neutral with respect to the time of occurrence
+\item narrative elements are irrelevant in the framing
+\end{itemize}
+Danto's machine or the ideal chronicler---worthless for
+historiography? (Comey's memos.)
+\end{frame}
+
+\begin{frame}
+  \frametitle{History of the Present}
+  Retrospective projections:
+  \begin{quote}
+    The meaning that thus accrues to the events retrospectively
+    emerges only in terms of the schema of possible action, namely, as
+    if the meaning, incorporating the knowledge of those born later,
+    had been intended. (158)
+  \end{quote}
+This may be problematic. Often what fascinates us about history is
+that we get to watch actors and empathize with them precisely in the
+sense that we want to understand their motives, desires, and beliefs
+before their intentions were either clear or fulfilled/thwarted.
+Examples: Gauguin, Anna Karenina, Brunhilde Pomsel. See Milan
+Kundera's essay ``Paths in the Fog.''
+\end{frame}
+
+\begin{frame}
+  \frametitle{Transcendental Versus Situated Reason}
+The self-transcendence inherent in language opens the possibility for
+transitioning between languages. Reason, however, does not transcend
+languages---it is situated in and between them. For Habermas, reason
+always emerges from people talking to each other. There is no such
+thing as Kant's `pure reason.'   
+\end{frame}
+
+\begin{frame}
+  \frametitle{Communicative Rationality}
+Danto emphasizes that history is of a piece and not divisible into
+pure descriptions and interpretations (159). G{\"o}del's
+incompleteness theorems: a formal axiom system containing arithmetic
+can be complete, it can be consistent, but it cannot be both; and its
+consistency cannot be demonstrated from within the system.
+
+\bigskip
+
+Habermas seeks to expand on enlightenment principles (instead of
+rejecting them) by proposing a framework for \alert{communicative
+  rationality}. Communicative rationality rests on an ideal speech
+situation in which discourse is immunized against repression and
+inequality. Here are some rules (Habermas calls them presuppositions):
+\end{frame}
+
+\begin{frame}
+  \frametitle{Communicative Rationality}
+\begin{itemize}
+\item participants in communicative exchange are using the same
+  linguistic expressions in the same way
+\item no relevant argument is suppressed or excluded by the
+  participants
+\item no force except that of the better argument is exerted
+\item all the participants are motivated only by a concern for the
+  better argument
+\item everyone capable of speech and action is entitled to
+  participate, and everyone is equally entitled to introduce new
+  topics or express attitudes, needs, or desires
+\item no validity claim is exempt in principle from critical
+  evaluation in argumentation
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Aristotle's Techne, Science, and Praxis}
+  Habermas's three moments of hermeneutic knowledge which it has in
+  common with Aristotle's political-ethical knowledge:
+  \begin{itemize}
+  \item reflexive: it is always also self-knowledge and shapes who
+    we are
+  \item internalized: practical knowledge continues a process of
+    socialization (Polyphemus)
+  \item global: it is never restricted to particular parts of the
+    lifeworld (the ability to operate a television vs the ability to
+    raise a child)
+  \end{itemize}
+  Technical rules (fundamental predicates, invariant rules of
+  application) vs practical rules (consensus, intersubjectivity,
+  pre-understanding) (165).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Habermas's Critique of Gadamer}
+  \begin{itemize}
+  \item Gadamer's agreement with the positivists that hermeneutics
+    transcends science (167)
+  \item the confrontation of truth and method should not have led
+    Gadamer to an abstract opposition between hermeneutic experience
+    and methodical knowledge
+  \item shifting the balance of authority and reason: Gadamer fails to
+    recognize the power of reflection that unfolds in \emph{Verstehen}
+    (168)
+  \item Gadamer's absolutization of hermeneutics (169)---this is in
+    contradiction to a rule of communicative action
+  \item the opposition between the legitimacy of prejudices validated
+    by tradition and the power of reflection, which can reject
+    tradition (170)
+  \end{itemize}
+\end{frame}
+
+\end{document}
