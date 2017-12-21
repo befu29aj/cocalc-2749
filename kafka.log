@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.23)  21 DEC 2017 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.23)  21 DEC 2017 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,21 +173,207 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (2.90176pt too wide) in paragraph at lines 50--62
+\OT1/cmr/m/n/10.95 thinkers fol-low the main-stream of an-a-lytic phi-los-o-phy
+ that ``re-ac-tive at-ti-tudes
+ []
 
-] [2]
+[1
+
+]
+Overfull \hbox (48.22261pt too wide) in paragraph at lines 77--85
+\OT1/cmr/m/n/10.95 moral phi-los-o-phy that runs par-al-lel to J^^?urgen Haber-
+mas's idea of de-tran-scen-den-tal-iz-ing
+ []
+
+
+Overfull \hbox (5.7609pt too wide) in paragraph at lines 77--85
+\OT1/cmr/m/n/10.95 in the phi-los-o-phy of ra-tio-nal-ity. Im-manuel Kant had g
+iven both the phi-los-o-phy
+ []
+
+
+Overfull \hbox (16.04176pt too wide) in paragraph at lines 77--85
+\OT1/cmr/m/n/10.95 of ra-tio-nal-ity and the phi-los-o-phy of moral-ity strongl
+y tran-scen-den-tal cre-den-tials,
+ []
+
+
+Overfull \hbox (1.6242pt too wide) in paragraph at lines 77--85
+\OT1/cmr/m/n/10.95 and both Straw-son and Haber-mas are com-mit-ted to sav-ing 
+the en-light-en-ment
+ []
+
+
+Overfull \hbox (36.90764pt too wide) in paragraph at lines 86--93
+\OT1/cmr/m/n/10.95 about the role of de-ter-min-ism for moral re-spon-si-bil-it
+y. The op-ti-mists (com-pat-i-bilists)
+ []
+
+
+Overfull \hbox (4.57462pt too wide) in paragraph at lines 86--93
+\OT1/cmr/m/n/10.95 do not con-sider pro-nounce-ments of whether the world is or
+ is not de-ter-min-is-tic
+ []
+
+
+Overfull \hbox (4.84842pt too wide) in paragraph at lines 86--93
+\OT1/cmr/m/n/10.95 a threat to moral re-spon-si-bil-ity. If any-thing, de-ter-m
+in-ism sup-ports the ef-fi-cacy
+ []
+
+
+Overfull \hbox (14.76422pt too wide) in paragraph at lines 94--110
+\OT1/cmr/m/n/10.95 treat-ment, and con-trol'' (Straw-son, 2008, 18). For the pe
+s-simists, this de-vo-lu-tion
+ []
+
+
+Overfull \hbox (0.3771pt too wide) in paragraph at lines 94--110
+\OT1/cmr/m/n/10.95 more about this in a mo-ment. Straw-son's so-lu-tion to the 
+pes-simist's chal-lenge
+ []
+
+[2]
+Overfull \hbox (9.80632pt too wide) in paragraph at lines 111--120
+\OT1/cmr/m/n/10.95 ob-jec-tive but rather par-tic-i-pant at-ti-tudes. Hu-mans h
+ave a nat-u-ral com-mit-ment
+ []
+
+
+Overfull \hbox (19.6613pt too wide) in paragraph at lines 111--120
+\OT1/cmr/m/n/10.95 thought that a high-level the-o-ret-i-cal ques-tion such as 
+whether or not de-ter-min-ism
+ []
+
+
 Overfull \hbox (5.2438pt too wide) in paragraph at lines 122--127
 \OT1/cmr/m/n/10.95 our-selves ... con-fronted by bleak des-o-la-tion. We can-no
 t be obliged
  []
 
-[3] [4] [5] [6] [7]
-Overfull \hbox (4.08797pt too wide) in paragraph at lines 340--345
-\OT1/cmr/m/n/10.95 cess of in-ner `per-cep-tion,' the causal con-nec-tion be-tw
-een thoughts,
+
+Overfull \hbox (30.15506pt too wide) in paragraph at lines 129--141
+\OT1/cmr/m/n/10.95 tran-scen-den-tal ra-tio-nal-ity gives way to a ra-tio-nal-i
+ty im-ple-mented in com-mu-nica-tive
  []
 
-[8] [9] [10] [11] [12] (./kafka.bbl [13]) [14] (./kafka.aux) ) 
+[3]
+Overfull \hbox (13.4259pt too wide) in paragraph at lines 142--150
+[]\OT1/cmr/m/n/10.95 What vi-o-lates this as-sess-ment is the idea that moral a
+gents can fully eman-ci-pate
+ []
+
+
+Overfull \hbox (20.63463pt too wide) in paragraph at lines 142--150
+\OT1/cmr/m/n/10.95 may be the Kan-tian moral agent whose moral sense is deriva-
+tive of tran-scen-den-tal
+ []
+
+
+Overfull \hbox (6.88626pt too wide) in paragraph at lines 158--165
+[]\OT1/cmr/m/n/10.95 Strawson goes on to de-scribe the `ab-nor-mal ego-cen-tric
+-ity' re-quired to main-tain
+ []
+
+
+Overfull \hbox (9.65427pt too wide) in paragraph at lines 158--165
+\OT1/cmr/m/n/10.95 moral struc-ture in hu-man be-haviour and mo-ti-va-tion. Bot
+h hu-man com-mu-ni-ties
+ []
+
+[4]
+Overfull \hbox (32.6796pt too wide) in paragraph at lines 210--220
+[]\OT1/cmr/m/n/10.95 What Straw-son and Hei-deg-ger have in com-mon is the ne-c
+es-sity of de-intellec-tualized
+ []
+
+[5]
+Overfull \hbox (4.60506pt too wide) in paragraph at lines 240--247
+\OT1/cmr/m/n/10.95 na-ture ver-sus Hei-deg-ger's ex-is-ten-tial as-sump-tions a
+bout the hu-man con-di-tion;
+ []
+
+
+Overfull \hbox (8.19423pt too wide) in paragraph at lines 240--247
+\OT1/cmr/m/n/10.95 and fi-nally, ac-counts of moral re-spon-si-bil-ity that con
+-sider its most fun-da-men-tal
+ []
+
+[6]
+Overfull \hbox (5.15254pt too wide) in paragraph at lines 280--293
+\OT1/cmr/m/n/10.95 ex-is-ten-tial-ist, psy-cho-an-a-lytic, and oth-ers. Most co
+m-men-ta-tors, how-ever, claim
+ []
+
+
+Overfull \hbox (24.55177pt too wide) in paragraph at lines 303--314
+\OT1/cmr/m/n/10.95 at-ten-u-ates as a su-per-fi-cial in-ves-ti-ga-tion yields t
+o a deeper one. In the \OT1/cmr/m/it/10.95 Nico-machean
+ []
+
+[7]
+Overfull \hbox (8.22461pt too wide) in paragraph at lines 325--338
+\OT1/cmr/m/n/10.95 Aris-to-tle, that an agent should be ig-no-rant of swaths of
+ rel-e-vant cir-cum-stances,
+ []
+
+
+Overfull \hbox (1.71545pt too wide) in paragraph at lines 325--338
+\OT1/cmr/m/n/10.95 ig-no-rant of all these cir-cum-stances to-gether; nor yet, 
+ob-vi-ously, of the agent---
+ []
+
+
+Overfull \hbox (5.63928pt too wide) in paragraph at lines 340--345
+\OT1/cmr/m/n/10.95 schema-tized, in-ter-preted through and through---the ac-tua
+l pro-cess
+ []
+
+
+Overfull \hbox (5.66963pt too wide) in paragraph at lines 340--345
+\OT1/cmr/m/n/10.95 feel-ings, de-sires, be-tween sub-ject and ob-ject, are ab-s
+o-lutely hid-den
+ []
+
+[8] [9]
+Overfull \hbox (7.64676pt too wide) in paragraph at lines 399--408
+\OT1/cmr/m/n/10.95 vic-tim-ize with-out per-pe-tra-tor. Sig-mund Freud's in-vis
+-i-ble hand op-er-ates dur-ing
+ []
+
+[10]
+Overfull \hbox (37.75925pt too wide) in paragraph at lines 437--443
+[]\OT1/cmr/m/n/10.95 Kafka an-tic-i-pates many of Fou-cault's con-clu-sions in 
+his lit-er-a-ture. The en-light-en-ment
+ []
+
+
+Overfull \hbox (15.09879pt too wide) in paragraph at lines 437--443
+\OT1/cmr/m/n/10.95 project of char-ac-ter-iz-ing hu-man life as guided by rea-s
+on and by the trans-parency
+ []
+
+
+Overfull \hbox (12.84798pt too wide) in paragraph at lines 462--475
+[]\OT1/cmr/m/n/10.95 Transitivity gives way to in-tran-si-tiv-ity. Ob-jects van
+-ish, as in Mar-tin Hei-deg-ger's
+ []
+
+[11]
+Overfull \hbox (17.12097pt too wide) in paragraph at lines 476--484
+[]\OT1/cmr/m/n/10.95 In Kafka's \OT1/cmr/m/it/10.95 Meta-mor-pho-sis\OT1/cmr/m/
+n/10.95 , Gre-gor ``suf-fers in per-son from [the] evil con-se-quences
+ []
+
+[12] (./kafka.bbl [13]
+Underfull \hbox (badness 1629) in paragraph at lines 35--39
+\OT1/cmr/m/it/10.95 Memory, Prac-tice\OT1/cmr/m/n/10.95 , edited by D.F. Boucha
+rd, Ithaca, NY: Cor-nell
+ []
+
+) [14] (./kafka.aux) ) 
 Here is how much of TeX's memory you used:
  2144 strings out of 493030
  25717 string characters out of 6136260
@@ -197,4 +383,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  34i,8n,34p,223b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kafka.dvi (14 pages, 39644 bytes).
+Output written on kafka.dvi (14 pages, 39176 bytes).
