@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511487800 "hm-06-poststruct.tex" "hm-06-poststruct.pdf" "hm-06-poststruct" 1511487802
+["pdflatex"] 1512092139 "hm-06-poststruct.tex" "hm-06-poststruct.pdf" "hm-06-poststruct" 1512092142
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -185,16 +185,16 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
   "BewareTheAvantGuardDog.jpg" 1510270409 69892 a4662b8a4174795c704b22e10c30390a ""
   "cheshire.jpg" 1510270409 52470 3c1760281c566d2d8695a63d9c2520fe ""
-  "hm-06-poststruct.aux" 1511487802 9526 3f96fc51c312c83be95e77d4ca699a34 ""
-  "hm-06-poststruct.nav" 1511487802 6263 9dd333434ed95c447fb6614d03f7df17 ""
-  "hm-06-poststruct.out" 1511487800 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "hm-06-poststruct.aux" 1512092142 9526 3f96fc51c312c83be95e77d4ca699a34 ""
+  "hm-06-poststruct.nav" 1512092142 6263 9dd333434ed95c447fb6614d03f7df17 ""
+  "hm-06-poststruct.out" 1512092140 0 d41d8cd98f00b204e9800998ecf8427e ""
   "hm-06-poststruct.tex" 1510883837 41102 9a7920e6e033c9c0d8809674396c658e ""
   "structable.png" 1510270409 45829 c05aaa765b678d4dee93ba270884edec ""
   (generated)
+  "hm-06-poststruct.out"
+  "hm-06-poststruct.pdf"
   "hm-06-poststruct.toc"
   "hm-06-poststruct.snm"
-  "hm-06-poststruct.out"
-  "hm-06-poststruct.nav"
-  "hm-06-poststruct.pdf"
   "hm-06-poststruct.aux"
   "hm-06-poststruct.log"
+  "hm-06-poststruct.nav"

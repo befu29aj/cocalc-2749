@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511480638 "hm-07-skepticism.tex" "hm-07-skepticism.pdf" "hm-07-skepticism" 1511480640
+["pdflatex"] 1512092139 "hm-07-skepticism.tex" "hm-07-skepticism.pdf" "hm-07-skepticism" 1512092142
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -180,15 +180,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "hm-07-skepticism.aux" 1511480640 8141 e5c6f3dcb47f43c65e656dbbb550591d ""
-  "hm-07-skepticism.nav" 1511480640 5333 1ab75ccea4bc48e3249622ac24e642fe ""
-  "hm-07-skepticism.out" 1511480639 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "hm-07-skepticism.aux" 1512092142 8141 e5c6f3dcb47f43c65e656dbbb550591d ""
+  "hm-07-skepticism.nav" 1512092142 5333 1ab75ccea4bc48e3249622ac24e642fe ""
+  "hm-07-skepticism.out" 1512092140 0 d41d8cd98f00b204e9800998ecf8427e ""
   "hm-07-skepticism.tex" 1511480619 30670 f123f3f1f3baf6b0b530a352a50c82f4 ""
   (generated)
+  "hm-07-skepticism.nav"
   "hm-07-skepticism.toc"
+  "hm-07-skepticism.pdf"
   "hm-07-skepticism.aux"
-  "hm-07-skepticism.snm"
   "hm-07-skepticism.out"
   "hm-07-skepticism.log"
-  "hm-07-skepticism.nav"
-  "hm-07-skepticism.pdf"
+  "hm-07-skepticism.snm"
