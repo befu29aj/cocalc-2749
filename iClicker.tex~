@@ -1,0 +1,334 @@
+% iClicker.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{graphicx}
+\usepackage{alltt}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+}
+% \usecolortheme[named=OliveGreen]{structure}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+\newif\ifBCITCourse
+\BCITCoursetrue
+\BCITCoursefalse
+\newif\ifWhichCourse
+\WhichCoursetrue
+% \WhichCoursefalse
+\ifBCITCourse
+\ifWhichCourse
+\newcommand{\CourseName}{Statistics for Food Technology}
+\newcommand{\CourseNumber}{MATH 1441}
+\newcommand{\CourseInst}{BCIT}
+\else
+\newcommand{\CourseName}{Calculus for Geomatics}
+\newcommand{\CourseNumber}{MATH 1511}
+\newcommand{\CourseInst}{BCIT}
+\fi
+\else
+\newcommand{\CourseName}{Philosophy and Literature}
+\newcommand{\CourseNumber}{PHIL 375}
+\newcommand{\CourseInst}{UBC}
+\fi
+
+\title{PHIL 375 iClicker Questions}
+\subtitle{{\CourseNumber}, {\CourseInst}}
+
+\author{\CourseName}
+
+\date{May 15, 2018}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Which one of these does NOT belong to the interpreter's credo?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] I believe in hermeneutic realism
+\item[B\hspace{.2in}$\blacktriangleright$] I believe in hermeneutic restoration
+\item[C\hspace{.2in}$\blacktriangleright$] I believe in hermeneutic responsibility
+\item[D\hspace{.2in}$\blacktriangleright$] I believe in hermeneutic rationality
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Which philosopher is known for the idea of ``deconstruction''?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] Friedrich Nietzsche
+\item[B\hspace{.2in}$\blacktriangleright$] Augustine
+\item[C\hspace{.2in}$\blacktriangleright$] S{\/o}ren Kierkegaard
+\item[D\hspace{.2in}$\blacktriangleright$] Jacques Derrida
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Which of the following features is not one that Galen Strawson
+investigates as a possible condition for diachronicity?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] form-finding
+\item[B\hspace{.2in}$\blacktriangleright$] story-telling tendency
+\item[C\hspace{.2in}$\blacktriangleright$] journalling
+\item[D\hspace{.2in}$\blacktriangleright$] revision
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Who is Strawson's example of someone who thinks that the psychological
+narrativity thesis is true (ordinary human beings experience their
+lives in some sort of narrative way), but the ethical narrativity
+thesis is NOT true (the narrative outlook is not essential to a
+well-lived life)?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] Henry James
+\item[B\hspace{.2in}$\blacktriangleright$] Jean-Paul Sartre
+\item[C\hspace{.2in}$\blacktriangleright$] Marya Schechtman
+\item[D\hspace{.2in}$\blacktriangleright$] Charles Taylor
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+What does NOF stand for?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] No Ownership of the Future
+\item[B\hspace{.2in}$\blacktriangleright$] No Ordinary Family
+\item[C\hspace{.2in}$\blacktriangleright$] Net Overall Futility
+\item[D\hspace{.2in}$\blacktriangleright$] Never OK to Fear
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will not be graded.
+\begin{block}{iClicker Question}
+Who argued that death is not an evil because it can only do harm to
+someone who no longer exists?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] Gareth Evans
+\item[B\hspace{.2in}$\blacktriangleright$] Marcus Aurelius
+\item[C\hspace{.2in}$\blacktriangleright$] Epicurus
+\item[D\hspace{.2in}$\blacktriangleright$] Jeff McMahan
+\end{description}
+\end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will not be graded.
+% \begin{block}{iClicker Question}
+% Who argued that death is not an evil because it can only do harm to
+% someone who no longer exists?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] Gareth Evans
+% \item[B\hspace{.2in}$\blacktriangleright$] Marcus Aurelius
+% \item[C\hspace{.2in}$\blacktriangleright$] Epicurus
+% \item[D\hspace{.2in}$\blacktriangleright$] Jeff McMahan
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% Which two movies are compared in Richard Kearney's article with
+% respect to their use of narrative?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] Milo{\^s} Forman's \emph{Amadeus} and Philip Kaufman's \emph{The Unbearable Lightness of Being}
+% \item[B\hspace{.2in}$\blacktriangleright$] Robert Zemecki's \emph{Forrest Gump} and James Cameron's \emph{Titanic}
+% \item[C\hspace{.2in}$\blacktriangleright$] Steven Spielberg's \emph{Schindler's List} and Claude Lanzmann's \emph{Shoah}
+% \item[D\hspace{.2in}$\blacktriangleright$] The Wachowski's \emph{The Matrix} and Christopher Nolan's \emph{Inception}
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% For which philosopher's account of personal identity does Marya
+% Schechtman point out that it rests on consciousness rather than, as
+% usually assumed, memory?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] John Locke
+% \item[B\hspace{.2in}$\blacktriangleright$] David Hume
+% \item[C\hspace{.2in}$\blacktriangleright$] J.S. Mill
+% \item[D\hspace{.2in}$\blacktriangleright$] Immanuel Kant
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% Which of these are not part of a Schechtman illustration in her paper?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] the fat lady in the picture
+% \item[B\hspace{.2in}$\blacktriangleright$] the sing-song of old man kangaroo
+% \item[C\hspace{.2in}$\blacktriangleright$] the man who thought he was Napoleon
+% \item[D\hspace{.2in}$\blacktriangleright$] Dr. Bernheim's umbrella
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% What is the cornerstone of existentialism?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] man's existence is more firmly established than God's existence
+% \item[B\hspace{.2in}$\blacktriangleright$] existence precedes essence
+% \item[C\hspace{.2in}$\blacktriangleright$] man is not free but bound to his existence
+% \item[D\hspace{.2in}$\blacktriangleright$] everything is morally permissible
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% Which of these are not part of a Sartre illustration in his paper?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] joining the resistance or staying with one's mother
+% \item[B\hspace{.2in}$\blacktriangleright$] the picture of Dorian Gray
+% \item[C\hspace{.2in}$\blacktriangleright$] a man who becomes a Jesuit after many setbacks in life
+% \item[D\hspace{.2in}$\blacktriangleright$] joining a Christian or a Communist trade union
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% Which one of these is a core moral dilemma in Charles Taylor's essay
+% ``What Is Human Agency?''?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] legalizing abortion vs valuing human life
+% \item[B\hspace{.2in}$\blacktriangleright$] eating organic local food vs giving to charity
+% \item[C\hspace{.2in}$\blacktriangleright$] persisting in an academic job vs moving to Nepal
+% \item[D\hspace{.2in}$\blacktriangleright$] keeping one healthy person alive vs having five sick patients die
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% Which of these contrast pairs is not a distinction found in Charles
+% Taylor's paper?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] internalist and externalist evaluation
+% \item[B\hspace{.2in}$\blacktriangleright$] first and second order desires
+% \item[C\hspace{.2in}$\blacktriangleright$] qualitative and quantitative evaluation
+% \item[D\hspace{.2in}$\blacktriangleright$] weak and strong evaluation
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% On the Non-Reductionist view, according to Derek Parfit in the reading for today,
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] moral choices cannot be reduced to calculations about consequences
+% \item[B\hspace{.2in}$\blacktriangleright$] a person is a separately existing entity, distinct from brain, body, and experience
+% \item[C\hspace{.2in}$\blacktriangleright$] moral questions cannot be reduced to scientific questions
+% \item[D\hspace{.2in}$\blacktriangleright$] Buddha's message and the Judaeo-Christian message cannot be reduced to each other
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% What is Hume's comparison for the soul?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] a republic or commonwealth, in which the several members are united by the reciprocal ties of government and subordination
+% \item[B\hspace{.2in}$\blacktriangleright$] a prisoner of war, always treated with a respect suitable to his condition
+% \item[C\hspace{.2in}$\blacktriangleright$] a commander in charge of a ship, communicating with the several parts of a vessel
+% \item[D\hspace{.2in}$\blacktriangleright$] a soup, in which the ingredients are now united though they were once asunder
+% \end{description}
+% \end{frame}
+
+% \begin{frame}
+%   \frametitle{iClicker Question}
+% Choose from the following options. This item will be graded.
+% \begin{block}{iClicker Question}
+% What game did Hume play to distract himself from the depressing
+% conclusions of his philosophical thought?
+% \end{block}
+% \begin{description}
+% \item[A\hspace{.2in}$\blacktriangleright$] chess
+% \item[B\hspace{.2in}$\blacktriangleright$] bridge
+% \item[C\hspace{.2in}$\blacktriangleright$] backgammon
+% \item[D\hspace{.2in}$\blacktriangleright$] tennis
+% \end{description}
+% \end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will be graded.
+\begin{block}{iClicker Question}
+  Which of these German philosophers insists that authority is
+  accepted freely, not blindly or slavishly?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] Marx
+\item[B\hspace{.2in}$\blacktriangleright$] Habermas
+\item[C\hspace{.2in}$\blacktriangleright$] Kant
+\item[D\hspace{.2in}$\blacktriangleright$] Gadamer
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{iClicker Question}
+Choose from the following options. This item will be graded.
+\begin{block}{iClicker Question}
+Which of these philosophers does not play a key role in Holub's essay?
+\end{block}
+\begin{description}
+\item[A\hspace{.2in}$\blacktriangleright$] J{\"u}rgen Habermas
+\item[B\hspace{.2in}$\blacktriangleright$] Martin Heidegger
+\item[C\hspace{.2in}$\blacktriangleright$] Karl Popper
+\item[D\hspace{.2in}$\blacktriangleright$] Hans-Georg Gadamer
+\end{description}
+\end{frame}
+
+
+
+\end{document}
